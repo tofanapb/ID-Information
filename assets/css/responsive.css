@@ -1,0 +1,261 @@
+/*Large screen*/
+@media only screen and (max-width:1500px) {
+	
+}
+@media only screen and (min-width:1200px) and (max-width:1300px) {
+	.header-area-img img {
+		margin-top: 20%;
+	}
+	
+}
+
+@media only screen and (min-width:1025px) and (max-width:1199px) {
+	.header-area-text {
+		padding-left: 65px;
+	}
+	.header-area-img img {
+		margin-top: 20%;
+	}
+	.header-area-inner h2 {
+		font-size: 35px;
+	}
+	.servics-head-img {
+		right: -85%;
+		bottom: 50%;
+	}
+	.contact-img {
+		top: -25%;
+	}
+	p.footer-url {
+		font-size: 15px;
+	}
+	.servics-inner-item.item-1 {
+		padding: 56px;
+	}
+	.form-area::before {
+		height: 120%;
+	}
+}
+
+/* Tablet Layout waid */
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	.header-area-text {
+		padding-left: 65px;
+	}
+	.header-area-img img {
+		margin-top: 25%;
+	}
+	.header-area-inner h2 {
+		font-size: 30px;
+	}
+	.servics-head-img {
+		left: 9%;
+		bottom: 80%;
+	}
+	p.footer-url {
+		font-size: 14px;
+	}
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.servics-inner-item.item-1 {
+		padding: 56px;
+	}
+	.form-area::before {
+		height: 120%;
+	}
+}
+
+/* tablet */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.header-area-img img {
+		margin-top: 25%;
+	}
+	.header-area-inner h2 {
+		font-size: 30px;
+	}
+	.servics-head-img {
+		right: -118%;
+		bottom: 10%;
+	}
+	.header-area-text {
+		padding-right: 50px;
+		padding-bottom: 20px;
+		padding-left: 65px;
+	}
+	.contact-form h2 {
+		font-size: 25px;
+	}
+	.footer-area img {
+		width: 75%;
+	}
+	.footer-area {
+		font-size: 10px;
+	}
+	.servics-inner-item.item-2 {
+		margin-bottom: 35px;
+	}
+	.count-items h1 {
+		font-size: 35px;
+	}
+	.contact-area .section-title .boxed-btn {
+		width: 215px;
+	}
+	.form-area::before {
+		height: 120%;
+		width: 88%;
+	}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width:767px) {
+	.header-area-img.text-right {
+		text-align: left!important;
+	}
+	.header-area-img img {
+		width: 240px;
+		height: 400px;
+	}
+	.servics-head-img{
+		left: 32px;
+		margin-bottom: 170px;
+	}
+	.header-area-text {
+		padding-right: 50px;
+		padding-bottom: 20px;
+		padding-left: 100px;
+	}
+	.last-text {
+		margin-top: 45px;
+	}
+	.servics-area .section-title {
+		margin-top: 80px;
+	}
+	.servics-inner-item .section-title {
+		margin-top: 0px;
+	}
+	.count-inner {
+		grid-auto-flow: row;
+	}
+	.count-items {
+		text-align: center!important;
+		margin-bottom: 20px;
+	}
+	.count-tilte h2 {
+		margin-bottom: 20px;
+	}
+	.contact-area .section-title {
+		margin-top: 350px;
+		margin-bottom: 150px;
+	}
+	.contact-img img {margin-top: -12%;}
+	.contact-left img {
+		margin-left: 5%;
+		margin-top: -80%;
+		transform: rotate(90deg);
+		width: 250px;
+	}
+	.form-area:before {
+		width: 136%;
+		right: -158px;
+		height: 100%;
+		bottom: 10px;
+	}
+	.contact-form h2 {
+		font-size: 30px;
+	}
+	.contact-form input {
+		width: 420px;
+	}
+	.footer-area {
+		text-align: center;
+	}
+	.footer-area img {
+		margin-bottom: 10px;
+	}
+	.footer-area .text-right {
+		text-align: center!important;
+	}
+	.servics-inner-item.item-2, .servics-inner-item.item-4 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (min-width:551px) and (max-width:667px) {
+	.servics-head-img {
+		left: 50px;
+	}
+	.header-area-text {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.form-area {
+		padding-left: 0;
+	}
+}
+/* small scren*/
+@media only screen and (min-width:450px) and (max-width:550px) {
+	.header-area-inner h2 {
+		font-size: 30px;
+	}
+	.header-area-text {
+		padding-left: 25px;
+	}
+	.servics-head-img {
+		left: 100px;
+		bottom: 130px;
+	}
+	.count-inner {
+		grid-auto-flow: row;
+	}
+	.count-items {
+		text-align: center!important;
+		margin-bottom: 20px;
+	}
+	.count-tilte h2 {
+		margin-bottom: 20px;
+	}
+	.contact-left img {
+		width: 250px;
+		height: auto;
+		margin-top: -98%;
+	}
+	.contact-form h2 {
+		font-size: 20px;
+	}
+	.contact-form input {
+		width: 100%;
+	}
+}
+@media only screen and (min-width:339px) and (max-width:449px) {
+	.header-area-inner h2 {
+		font-size: 20px;
+	}
+	.servics-head-img {
+		left: 50px;
+		bottom: 35px;
+	}
+	.header-area-text {
+		padding-left: 30px;
+	}
+	.contact-left img {
+		margin-left: 25%;
+		margin-top: -100%;
+		width: 150px;
+	}
+	.contact-form h2 {
+		font-size: 20px;
+	}
+	.contact-form input {
+		width: 100%;
+	}
+	.contact-area .section-title {
+   		 margin-top: 220px;
+	}
+	.form-area {
+		padding-left: 0;
+	}
+	.form-area:before {
+		width: 156%;
+	}
+}  
